@@ -1,4 +1,3 @@
-
 Follow these simple steps to use the samples:
  
 * Create a servlet folder in your webapps directory e.g.,
@@ -53,8 +52,11 @@ Follow these simple steps to use the samples:
     - WEB-INF
       - lib
         - gw-gosu-core.jar
+        - gw-gosu-core-api.jar
         ...
-        
+
+* You can access parameters using servletParams.getParameter("paramName") in your servlet (gst)
+
 * Try a sample in your browser e.g.,
  
    http://localhost:8080/MyGosuServlet/sample/hello/HelloWorld.gst
