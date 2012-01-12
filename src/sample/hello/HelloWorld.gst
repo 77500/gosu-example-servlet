@@ -1,4 +1,4 @@
-<%@ params( servletParams: gw.util.servlet.GosuServlet ) %>
+<%@ params( servletParams: gw.util.servlet.ServletParams ) %>
 <br>
 <b>Hello World!</b><br> 
 <br>
